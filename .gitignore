@@ -1,0 +1,57 @@
+# Игнорировать файлы, связанные с Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.fvm/
+
+# Игнорировать файлы, специфичные для IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Игнорировать кэш Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.gradle/
+
+# Игнорировать файлы, связанные с зависимостями
+/pubspec.lock
+/.dart_tool/package_config.json
+
+# Игнорировать сгенерированные файлы
+*.log
+*.json
+*.metada
+*.symbols
+
+# Игнорировать платформо-специфичные файлы
+/web/
+/linux/
+/macos/
+/windows/
+
+# Игнорировать пользовательские настройки
+.settings/
+*.userprefs
+
+# Игнорировать временные файлы
+*.tmp
+*.temp
+
+# Игнорировать папку test (если она не нужна)
+/test/
+
+# Игнорировать папку coverage (если используется тестирование с покрытием)
+/coverage/
+
+# Игнорировать файлы, связанные с Firebase
+**/firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Игнорировать файлы, связанные с локальными настройками
+local.properties
