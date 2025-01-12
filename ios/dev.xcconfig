@@ -1,0 +1,4 @@
+#include "Flutter/Generated.xcconfig"
+IDENTIFIER=com.bookEcho.dev
+APP_NAME=BookEcho(DEV)
+APP_ICON_NAME=AppIcon-dev

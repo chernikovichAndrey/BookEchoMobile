@@ -1,6 +1,9 @@
+import 'package:book_echo/common/config/config.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+Future main() async {
+  await dotenv.load(fileName: 'assets/.env');
   runApp(const MyApp());
 }
 
@@ -10,6 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    print('11111 ${Config.baseUrl}');
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
